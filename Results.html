@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles2.css">
+    <link rel="stylesheet" href="results.css">
+    <script src="results.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="navbar">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="AboutUs.html">About Us</a></p>
+        <p><a href="sorted.html">Visualizations</a></p>
+        <p><a href="Results.html">Results</a></p>
+    </div>
+    <h2 class="subHeadclass">
+        Results
+    </h2>
+    <div class="about-us">
+        In this project, we analyzed a dataset of songs obtained from Kaggle, based on various parameters such as
+        danceability, energy, key, loudness, mode, speechiness, acousticness, instrumentalness, liveness, valence, and
+        tempo. Our goal was to gain insights into what makes a song popular and how to improve less popular songs.
+
+        We began by performing data cleaning and pre-processing to ensure the accuracy and consistency of the data. This
+        included removing duplicates, filling missing values, and converting data types where necessary.
+
+        Next, we conducted exploratory data analysis to gain insights into the distribution of the various parameters
+        among the songs in our dataset. We plotted bar charts, box plots, and scatter plots to visualize the data and
+        identify any trends or patterns.
+
+        We then analyzed the correlation between the parameters and the popularity of the songs, and found that
+        danceability, energy, loudness, and tempo had the greatest impact on a song's popularity. We also compared the
+        average values of these parameters between popular and less popular songs and found that there were significant
+        differences between the two groups.
+
+        Based on these insights, we provided recommendations for improving less popular songs. For example, we found
+        that less popular songs had lower values for liveness and speechiness, so increasing these parameters could help
+        improve their popularity. Similarly, less popular songs had higher values for acousticness and instrumentalness,
+        indicating a need for more emphasis on vocals and lyrics.
+
+        Overall, this project provided valuable insights into what makes a song popular and how to improve less popular
+        songs, using data-driven analysis.
+    </div>
+    <h2 class="subHeadclass-2">
+        Visuals
+    </h2>
+    <button onclick="myFunction1()">Correlation matrix for the features</button>
+    <button onclick="myFunction2()">Feature Comparison for popular and less popular songs</button>
+    <button onclick="myFunction3()">Popularity vs Features Corelation Coefficients</button>
+    <button onclick="myFunction4()">Features to improve for less popular songs</button>
+    <button onclick="myFunction5()">Comparison for audio features between popular and less popular songs</button>
+    <div id="vis-1"><img src="result1.png" alt=""></div>
+    <div id="vis-2"><img src="result2.png" alt=""></div>
+    <div id="vis-3"><img src="result3.png" alt=""></div>
+    <div id="vis-4"><img src="result4.png" alt=""></div>
+    <div id="vis-5"><img src="result5.png" alt=""></div>
+</body>
+</html>
