@@ -185,16 +185,6 @@ h2.subHeadclass-2{
   /* width: fit-content; */
   text-align: center;
   background-color: #acace3;
+  margin-bottom: 30px;
 }
 
-h2.subHeadclass-3{
-  font-size: 30px;
-  margin-top: -1px;
-  font-weight: lighter;
-  /* width: fit-content; */
-  text-align: center;
-  background-color: #acace3;
-}
-
-
-/******Result Styling*********/
